@@ -4,6 +4,39 @@ body{
     margin: 0;
     background-color: rgb(252, 252, 247);
 }
+*{
+  box-sizing: border-box;
+}
+
+
+/* Media Query Start */
+@media only screen and (max-width: 834px) {
+  .banner{
+    flex-direction: column;
+    width: 100%;
+  }
+  .banner-title{
+    flex-direction: column;
+    width: 100%;
+
+  }
+  .p-item{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    
+  }
+  .main{
+    flex-direction: column;
+    width: 100%;
+  }
+
+  
+  }
+
+  
+
+
+/* Media Query Start */
 
 /* banner Saction Start */
 
